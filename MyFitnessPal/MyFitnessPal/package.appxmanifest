@@ -14,7 +14,7 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="http://www.myfitnesspal.com/">
+    <Application Id="App" StartPage="http://www.myfitnesspal.com">
       <uap:VisualElements DisplayName="My Fitness Pal" Description="My Fitness Pal" BackgroundColor="#0072BC" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" ShortName="My Fitness Pal" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png">
           <uap:ShowNameOnTiles>
@@ -24,7 +24,7 @@
         <uap:SplashScreen Image="images\splashscreen.png" BackgroundColor="#0072BC" />
       </uap:VisualElements>
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="http://www.myfitnesspal.com/" Type="include" WindowsRuntimeAccess="none" />
+        <uap:Rule Match="http://*.myfitnesspal.com" Type="include" WindowsRuntimeAccess="none" />
       </uap:ApplicationContentUriRules>
     </Application>
   </Applications>
